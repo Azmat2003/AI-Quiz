@@ -1,0 +1,109 @@
+# =========================
+# Dependencies
+# =========================
+node_modules/
+client/node_modules/
+server/node_modules/
+
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+!.env.example
+
+client/.env
+server/.env
+
+
+# =========================
+# Build Output
+# =========================
+dist/
+build/
+
+client/dist/
+server/dist/
+
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# =========================
+# Runtime / Process Files
+# =========================
+*.pid
+*.seed
+*.pid.lock
+
+
+# =========================
+# Coverage
+# =========================
+coverage/
+.nyc_output/
+
+
+# =========================
+# Cache
+# =========================
+.cache/
+.parcel-cache/
+.vite/
+.eslintcache
+
+
+# =========================
+# Uploaded Files
+# =========================
+uploads/
+server/uploads/
+
+
+# =========================
+# OS Generated Files
+# =========================
+.DS_Store
+Thumbs.db
+
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+
+*.swp
+*.swo
+
+
+# =========================
+# Temporary Files
+# =========================
+tmp/
+temp/
+*.tmp
+
+
+# =========================
+# Package Manager Files
+# =========================
+.pnpm-store/
+
+
+# =========================
+# Local Database Files
+# =========================
+*.sqlite
+*.sqlite3
+*.db
