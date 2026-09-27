@@ -10,7 +10,7 @@ const answerSchema = new mongoose.Schema(
 
     selectedOption: {
       type: Number,
-      required: true,
+      default: null,
       min: 0,
       max: 3,
     },
@@ -47,7 +47,7 @@ const attemptSchema = new mongoose.Schema(
 
     status: {
       type: String,
-      enum: ["IN_PROGRESS", "COMPLETED"],
+      enum: ["IN_PROGRESS", "COMPLETED", "EXPIRED"],
       default: "IN_PROGRESS",
     },
 
